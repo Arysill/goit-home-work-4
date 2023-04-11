@@ -449,6 +449,9 @@ body {
 /**------------------------section information--------------------------*/
 .backcolor-index {
 }
+.features {
+  padding-bottom: 120px;
+}
 .features-web-section {
   padding-top: 120px;
 }
@@ -505,6 +508,7 @@ body {
   justify-content: center;
   background: #f4f4fd;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /**-------------------section  what are we doing-------------------------*/
