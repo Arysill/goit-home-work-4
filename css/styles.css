@@ -429,7 +429,6 @@ body {
   color: #ffffff;
   background: var(--title-btn-color);
   cursor: pointer;
-
   display: flex;
   flex-direction: row;
   align-items: flex-start;
