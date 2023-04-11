@@ -171,9 +171,6 @@ address {
 }
 .buton-portfolio {
   align-items: center;
-  box-shadow: 0px 2px 2px 0px #0000001f;
-  box-shadow: 0px 2px 1px 0px #00000014;
-  box-shadow: 0px 3px 1px 0px #0000001a;
 }
 
 .btn-info-portfolio {
@@ -248,6 +245,11 @@ address {
 
 .img-portfol-link {
   background: #ffffff;
+}
+
+.img-portfol-link:is(:hover, :focus) {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card {
@@ -437,6 +439,7 @@ body {
   margin: 0% auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 
 .btn-hero-web:is(:hover, :focus) {
@@ -608,11 +611,10 @@ body {
 .custor {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
   text-align: center;
   letter-spacing: 0.02em;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .custo-container {
   padding-bottom: 120px;
@@ -649,7 +651,7 @@ body {
 
 .soc-people-container {
   margin-top: 8px;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .our-list {
   display: flex;
