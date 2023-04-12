@@ -55,6 +55,8 @@ img {
 
 /**-------------------------HEADER Potfolio --------------------------*/
 .header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -73,11 +75,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
-  /* padding-left: 156px; */
 }
 .contact-web {
-  /* padding-right: 156px; */
 }
 .header-logo {
   margin-right: 76px;
@@ -110,8 +109,6 @@ address {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .visit-list {
   display: flex;
@@ -148,6 +145,7 @@ address {
   display: flex;
 }
 .contact-link {
+  margin-right: 40px;
 }
 
 .header-adress {
@@ -280,6 +278,8 @@ address {
 
 /**------------Header Web-site--------------------*/
 .header-web {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 body {
   margin: 0%;
@@ -449,11 +449,9 @@ body {
 /**------------------------section information--------------------------*/
 .backcolor-index {
 }
-.features {
-  padding-bottom: 120px;
-}
 .features-web-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .text-web-features {
 }
@@ -464,7 +462,6 @@ body {
   justify-content: center;
 }
 .link-info-web {
-  /* border: 2px solid #4d5ae5; */
 }
 .link-info-web {
 }
@@ -494,15 +491,16 @@ body {
   justify-content: center;
   gap: 24px;
 }
-
+.features {
+}
 .text-soc-item {
   width: 264px;
   height: 112px;
 }
 
 .text-soc-link {
-  width: 100%;
-  height: 100%;
+  width: 264px;
+  height: 121px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -515,7 +513,6 @@ body {
 .about-webs-section {
 }
 .web-what-doing {
-  padding-top: 120px;
 }
 .what-index {
   width: min-content;
@@ -558,6 +555,7 @@ body {
 
 .container-people {
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .webs-text-team {
@@ -581,10 +579,6 @@ body {
 .webst-link-team {
   background: #ffffff;
   justify-content: center;
-
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 .img-web {
 }
@@ -609,16 +603,18 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 .customer-section {
 }
 .custor {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11px;
   text-align: center;
   letter-spacing: 0.02em;
   padding-top: 120px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .custo-container {
   padding-bottom: 120px;
@@ -627,7 +623,7 @@ body {
 .custo-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 .cust-soc-item {
   width: 168px;
@@ -655,7 +651,7 @@ body {
 
 .soc-people-container {
   margin-top: 8px;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 .our-list {
   display: flex;
@@ -766,6 +762,10 @@ body {
   border-radius: 50%;
 }
 
-.web-soc-link:is(:hover, :focus) {
+.web-soc-link:focus {
   background: #404bbf;
+}
+
+.web-soc-link:hover {
+  background: #31d0aa;
 }
